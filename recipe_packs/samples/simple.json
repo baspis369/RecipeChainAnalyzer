@@ -1,0 +1,17 @@
+{
+  "name": "SimpleSamplePack",
+  "version": "0.1.0",
+  "description": "RecipeChainAnalyzer 用のサンプルレシピパック",
+  "recipes": [
+    {
+      "id": "recipe_001",
+      "name": "Sample Recipe",
+      "inputs": [
+        { "item": "item_a", "quantity": 1, "unit": "pcs" }
+      ],
+      "outputs": [
+        { "item": "item_b", "quantity": 1, "unit": "pcs" }
+      ]
+    }
+  ]
+}

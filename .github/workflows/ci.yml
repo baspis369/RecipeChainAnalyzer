@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up environment
+        run: echo "TODO: setup language/runtime here"
+
+      - name: Install dependencies
+        run: echo "TODO: install dependencies"
+
+      - name: Run tests
+        run: echo "TODO: run test suite"
